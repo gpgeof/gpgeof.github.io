@@ -16,18 +16,34 @@ Original-Maintainer: GPGEOF <https://github.com/gpgeof>
 
 Package: shellinclude
 Version: 0.1.0
-Architecture: all
+Architecture: All
 Essential: no
 Bugs: https://github.com/Dirack/Shellinclude/issues/new?assignees=Dirack&labels=bug&template=bug_report.md&title=%5BBUG%5D
 Maintainer: Rodolfo A C Neves (Dirack) <https://dirack.github.io>
-Depends: dialog (>= 1.3), lynx (>= 2.9)
+Depends: bash
 Filename: ./shellinclude_0.1.0_all.deb
-Size: 27020
-MD5sum: 5a026a9266cb0ec9a38890ab5ae94724
-SHA1: 888ba811ea4a4d80a7941d77695a02d5fac13c2a
-SHA256: f017236b3b8c774185fbe57eecc7d4997861df21f5cae4b3872f87ad9d964d55
+Size: 14168
+MD5sum: 67135188fc03be90bb76de35b181579a
+SHA1: d866cc0dbf1ec6598b819bbaba4af74aef5fd9fd
+SHA256: 9b0eecb3b758ce12293454ba285f581f2e4210428fd73dd177ab74856f7370ce
 Priority: optional
-Description: Biblioteca de scripts utilitários em Shell Script
+Homepage: https://github.com/Dirack/Shellinclude/wiki
+Description: Programas utilitários em Shell Script para auxiliar em tarefas do cotidiano no Linux Ubuntu
+ A Shellinclude é uma biblioteca shell script com vários programas utilitários que ajudam a facilitar tarefas rotineiras do programador no sistema operacional Linux Ubuntu.
+ Os scripts da Shellinclude também podem ser utilizados como templates para outros programadores desenvolverem os seus próprios programas.
+ .
+ Programas da versão atual - v0.1.0-beta.1 (Beta)
+ .
+ lipsum: Gerar texto aleatório na tela do terminal (dummy text).
+ cabecalho: Gerar cabeçalho para o código fonte de um programa com objetivo, nome do programa e etc.
+ comp: Compilar e instalar programas na versão local do pacote de processamento sísmico MADAGASCAR.
+ img: Converter .vpl (arquivos de imagem do MADAGASCAR) em imagens .jpeg
+ jonas: Criar atalhos para pastas e aliases permanentes.
+ .
+ Scripts auxiliares:
+ .
+ mensagemErro.sh
+ mensagemAjuda.sh
 Original-Maintainer: GPGEOF <https://github.com/gpgeof>
 
 Package: shellunity
