@@ -22,10 +22,10 @@ Bugs: https://github.com/Dirack/Shellinclude/issues/new?assignees=Dirack&labels=
 Maintainer: Rodolfo A C Neves (Dirack) <https://dirack.github.io>
 Depends: bash
 Filename: ./shellinclude_0.1.0_all.deb
-Size: 14168
-MD5sum: 67135188fc03be90bb76de35b181579a
-SHA1: d866cc0dbf1ec6598b819bbaba4af74aef5fd9fd
-SHA256: 9b0eecb3b758ce12293454ba285f581f2e4210428fd73dd177ab74856f7370ce
+Size: 14172
+MD5sum: cd1f474c7776e1f37147d1540908238e
+SHA1: b9c2094bb6d9f8fe6106d640b8640394fc56bdb4
+SHA256: bd9ababfcc5f8da159be8c255cb7468f28fb9e81ba48ae86c966d8b0d83d8a8d
 Priority: optional
 Homepage: https://github.com/Dirack/Shellinclude/wiki
 Description: Programas utilitários em Shell Script para auxiliar em tarefas do cotidiano no Linux Ubuntu
