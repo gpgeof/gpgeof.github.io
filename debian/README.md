@@ -20,7 +20,7 @@ raytracer | 0.1.0 | Beta version |  | [[zip]](https://github.com/gpgeof/rayTrace
 To add this repository to your apt repositories add the following line to your '/etc/apt/sources.list' file:
 
 ```sh
-deb [trusted=yes] https://dirack.github.io/debian ./
+deb [trusted=yes] https://gpgeof.github.io/debian ./
 ```
 
 Update packages list with:
