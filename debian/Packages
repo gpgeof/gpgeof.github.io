@@ -54,10 +54,10 @@ Bugs: https://github.com/Dirack/ShellUnity/issues
 Maintainer: Rodolfo A C Neves (Dirack) <https://dirack.github.io>
 Depends: bash
 Filename: ./shellunity_0.1.0_all.deb
-Size: 1940
-MD5sum: c57f1070eb50d2b7086082fb0b40df53
-SHA1: 61a7f26eb6a2eb595a1a87e8cb8ad39ffb7571eb
-SHA256: 780a3b8e3cd686b3d295f1c020832bc19f8c4577d69d320cfc3ea5efb7dd5d9c
+Size: 7028
+MD5sum: 5b28fe54e530dd17175b7ba4e3975f1c
+SHA1: 3614533e20ca4b29201f7ea756ca392317a036c6
+SHA256: b6596796f6b00d870577b44ebd90714c9add3cf2c62c12b31aca769d6cf64b24
 Priority: optional
 Homepage: https://github.com/Dirack/ShellUnity/wiki
 Description: shellunity - Framework de testes unitários em Shell Script
