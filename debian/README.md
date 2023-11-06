@@ -6,15 +6,6 @@ are open source software, so feel free to share and modify them.
 
 - Maintainer: Rodolfo A C Neves (Dirack) - rodolfo_profissional@hotmail.com
 
-# Packages List
-
-Package   | version | type |  |  |  |
---------- | ------- | ---- | - | - | - |
-shellinclude | 0.1.0 | Beta version | [[deb]](https://github.com/Dirack/Shellinclude/releases/download/v0.1.0-beta.1/shellinclude_0.1.0_all.deb) | [[zip]](https://github.com/Dirack/Shellinclude/archive/refs/tags/v0.1.0-beta.1.zip) | [[tar.gz]](https://github.com/Dirack/Shellinclude/archive/refs/tags/v0.1.0-beta.1.tar.gz) |
-pythoninclude | 0.1.0 | Beta version | [[deb]](https://github.com/Dirack/Pythoninclude/releases/download/v0.1.0-beta.1/pythoninclude_0.1.0_all.deb) | [[zip]](https://github.com/Dirack/Pythoninclude/archive/refs/tags/v0.1.0-beta.1.zip) | [[tar.gz]](https://github.com/Dirack/Pythoninclude/archive/refs/tags/v0.1.0-beta.1.tar.gz) |
-shellunity | 0.1.0 | Beta version | [[deb]](https://github.com/Dirack/shellUnity/releases/download/v0.1.0/shellunity_0.1.0_all.deb) | [[zip]](https://github.com/Dirack/shellUnity/archive/refs/tags/v0.1.0.zip) | [[tar.gz]](https://github.com/Dirack/shellUnity/archive/refs/tags/v0.1.0.tar.gz) |
-raytracer | 0.1.0 | Beta version |  | [[zip]](https://github.com/gpgeof/rayTracer/archive/refs/tags/v0.1-beta.1.zip) | [[tar.gz]](https://github.com/gpgeof/rayTracer/archive/refs/tags/v0.1-beta.1.tar.gz) |
-
 # How to add this repository to your sources.list?
 
 To add this repository to your apt repositories add the following line to your '/etc/apt/sources.list' file:
@@ -41,5 +32,18 @@ And if you need a specific release use:
 sudo apt install <package>=<release>
 ```
 
+# Packages List
 
+After adding this repository to your 'sources.list' following the steps above, you are able to get this repository
+packages list as follows:
 
+```sh
+grep -e Package: /var/lib/apt/lists/gpgeof.github.io_debian_*_Packages | sed 's/Package: //' | xargs -I % bash -c 'apt-cache search %'
+```
+
+This command will exhibit a list and a brief explanation of each package available in this repository.
+To get more information about a specific package use the following command:
+
+```sh
+apt show <package>
+```
