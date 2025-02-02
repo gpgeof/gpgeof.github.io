@@ -5,3 +5,7 @@
 ## Debian packages
 
 We have a library of debian packages for linux users, [check it out](https://gpgeof.github.io/debian/).
+
+## Data repository
+
+We have a data repository too, [check it out](https://gpgeof.github.io/data/)
