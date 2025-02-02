@@ -1,3 +1,4 @@
-# Repositório de dados de teste
+# Test data repository
 
-Neste diretório estão disponíveis vários dados e arquivos RSF para estudos e testes com o pacote de processamento sísmico Madagascar.
+In this directory there is several data and RSF files (for Madagascar users) for tests and studies.
+
