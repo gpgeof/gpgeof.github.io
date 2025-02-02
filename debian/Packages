@@ -64,3 +64,20 @@ Description: shellunity - Framework de testes unitários em Shell Script
  Esta biblioteca é um framework de testes unitários em Shell Script contém um conjunto de funções para teste unitário de scripts. São funções básicas para verificar igualdade entre variáveis do Shell e strings, bem como verificar se arquivos e diretórios existem e etc. A shellUnity é baseada no projeto Unity, um framework para testes unitários em C.
 Original-Maintainer: GPGEOF <https://github.com/gpgeof>
 
+Package: shellunity
+Version: 0.2.0
+Architecture: all
+Essential: no
+Bugs: <https://github.com/Dirack/ShellUnity/issues>
+Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+Depends: bash
+Filename: ./shellunity_0.2.0_all.deb
+Size: 6816
+MD5sum: 2fda7e17eda02bb9fac076a2278a7045
+SHA1: 84eedb2f71486beb08bbc0fef2aa8fd55f9de4e0
+SHA256: 4944c95963aca7f0520e58db5f1442596c84c2d933bde6cc39e9c8f018ada241
+Priority: optional
+Homepage: <https://github.com/Dirack/ShellUnity/wiki>
+Description: Framework de testes unitários em Shell Script
+Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+
