@@ -81,3 +81,20 @@ Homepage: <https://github.com/Dirack/ShellUnity/wiki>
 Description: Framework de testes unitários em Shell Script
 Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
 
+Package: shellunity
+Version: 0.3.0
+Architecture: all
+Essential: no
+Bugs: <https://github.com/Dirack/ShellUnity/issues>
+Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+Depends: bash
+Filename: ./shellunity_0.3.0_all.deb
+Size: 6842
+MD5sum: 9b1a9af37021e6c0edbf2ee9dbe4c0a2
+SHA1: c35a55b17ab8cff6f2edb87674bc46750f95f065
+SHA256: 89e1b46ae1cc040db703811bab7f435f295a6ce24f0638d3c37675bb37c55df9
+Priority: optional
+Homepage: <https://github.com/Dirack/ShellUnity/wiki>
+Description: Framework de testes unitários em Shell Script
+Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+
