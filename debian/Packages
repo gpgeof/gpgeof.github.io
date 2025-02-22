@@ -63,6 +63,23 @@ Homepage: <https://github.com/Dirack/Shellinclude/wiki>
 Description: Programas utilitários em Shell Script para auxiliar em tarefas do cotidiano no linux ubuntu.
 Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
 
+Package: shellinclude
+Version: 0.1.2
+Architecture: all
+Essential: no
+Bugs: <https://github.com/Dirack/Shellinclude/issues>
+Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+Depends: bash
+Filename: ./shellinclude_0.1.2_all.deb
+Size: 14276
+MD5sum: ee56c5e17071f0dc02cdb83af4e9ba15
+SHA1: 926dbaf1ab182996808b5e46e46ce99a5a9b8e7b
+SHA256: 09e0761a3a8e3093e7e15f4f83d1f4c64028b6b06ab17116e6ceb2a8799ba7ba
+Priority: optional
+Homepage: <https://github.com/Dirack/Shellinclude/wiki>
+Description: Programas utilitários em Shell Script para auxiliar em tarefas do cotidiano no linux ubuntu.
+Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+
 Package: shellunity
 Version: 0.1.0
 Architecture: all
