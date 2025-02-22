@@ -46,6 +46,23 @@ Description: Programas utilitários em Shell Script para auxiliar em tarefas do 
  mensagemAjuda.sh
 Original-Maintainer: GPGEOF <https://github.com/gpgeof>
 
+Package: shellinclude
+Version: 0.1.1
+Architecture: all
+Essential: no
+Bugs: <https://github.com/Dirack/Shellinclude/issues>
+Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+Depends: bash
+Filename: ./shellinclude_0.1.1_all.deb
+Size: 13788
+MD5sum: 4907413b0b06385c7a22473248413568
+SHA1: a99c199e74aa5bf259e0ae90fe010d57cf7cb285
+SHA256: 4652dd219223646c66992eb669929023a04bb496dea0a4fafada557b5112f2c2
+Priority: optional
+Homepage: <https://github.com/Dirack/Shellinclude/wiki>
+Description: Programas utilitários em Shell Script para auxiliar em tarefas do cotidiano no linux ubuntu.
+Original-Maintainer: Rodolfo A C Neves (Dirack) <https://www.geofisicando.com>
+
 Package: shellunity
 Version: 0.1.0
 Architecture: all

@@ -1,19 +1,29 @@
 #!/bin/bash
 
-# Verificar a última atualização
-LAST_RELEASE=$(curl https://api.github.com/repos/Dirack/ShellUnity/releases/latest -s | sed -n '/tag_name/p' | cut -d":" -f2 | cut -d'"' -f2)
+ORGANIZATIONS=("Dirack" "Dirack")
+REPOS=("ShellUnity" "Shellinclude")
+PACKAGENAMES=("shellunity" "shellinclude")
 
-# Tem esta última release?
-if [ ! -f "shellunity_${LAST_RELEASE##*v}_all.deb" ]
-then
-    wget "https://github.com/Dirack/ShellUnity/releases/download/${LAST_RELEASE}/shellunity_${LAST_RELEASE}.deb.zip"
-    unzip "shellunity_${LAST_RELEASE}.deb.zip"
-fi
+for i in $(seq 0 1 1)
+do
 
-if ls *.deb.zip
-then
-    rm *.deb.zip
-fi
+    echo "Package: ${PACKAGENAMES[$i]}"
 
-# This is a script to update the Packages list with the following command
-dpkg-scanpackages -m . /dev/null > Packages
+    # Verificar a última atualização
+    LAST_RELEASE=$(curl https://api.github.com/repos/${ORGANIZATIONS[$i]}/${REPOS[$i]}/releases/latest -s | sed -n '/tag_name/p' | cut -d":" -f2 | cut -d'"' -f2)
+
+    # Tem esta última release?
+    if [ ! -f "${PACKAGENAMES[$i]}_${LAST_RELEASE##*v}_all.deb" ]
+    then
+        wget "https://github.com/${ORGANIZATIONS[$i]}/${REPOS[$i]}/releases/download/${LAST_RELEASE}/${PACKAGENAMES[$i]}_${LAST_RELEASE}.deb.zip"
+        unzip "${PACKAGENAMES[$i]}_${LAST_RELEASE}.deb.zip"
+    fi
+
+    if ls *.deb.zip
+    then
+        rm *.deb.zip
+    fi
+
+    # This is a script to update the Packages list with the following command
+    dpkg-scanpackages -m . /dev/null > Packages
+done
